@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<homepage lang="en">
+    <metadata>
+        <title>My XML Structured Homepage</title>
+        <author>Jane Doe</author>
+    </metadata>
+    
+    <navigation>
+        <link url="#home">Home</link>
+        <link url="#about">About</link>
+        <link url="#projects">Projects</link>
+        <link url="#contact">Contact</link>
+    </navigation>
+    
+    <heroSection>
+        <headline>Welcome to My Data-Driven Space</headline>
+        <subheading>This layout is powered entirely by XML and XSLT.</subheading>
+        <cta url="#projects">View My Work</cta>
+    </heroSection>
+    
+    <mainContent>
+        <article id="about">
+            <title>About This Project</title>
+            <paragraph>Unlike standard HTML pages, this layout splits content from presentation. The XML file houses raw structured data, while an external XSLT file handles rendering, colors, and layout mechanics.</paragraph>
+        </article>
+        
+        <article id="features">
+            <title>Why Use XML for Content?</title>
+            <paragraph>XML makes data highly portable, highly searchable, and completely independent of any single platform layout rule.</paragraph>
+        </article>
+    </mainContent>
+    
+    <footer>
+        <copyright>© 2026 Structured Data Portal. All rights reserved.</copyright>
+    </footer>
+</homepage>
